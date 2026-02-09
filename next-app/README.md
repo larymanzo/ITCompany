@@ -1,6 +1,6 @@
 # Next.js App
 
-Projeto Next.js básico criado pelo assistente.
+Projeto Next.js básico para simular uma página de uma empresa de T.I..
 
 Como rodar:
 
