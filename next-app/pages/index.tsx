@@ -1,11 +1,12 @@
-import Link from 'next/link';
-
 export default function Home() {
+    const buttonHead = 'hover:text-emerald-700 hover:bg-white bg-green-700 rounded-2xl p-4 text-white'
   return (
-    <main className=" bg-green-950">
-      <h1 className="text-3xl font-bold">Bem-vindo ao Next.js seu arrombado</h1>
-      <p>Aplicação criada pelo assistente.</p>
-      <p><Link href="/about">Sobre</Link></p>
-    </main>
+    <div >
+        <image className={buttonHead}>IMAGEM</image>
+        <button className={buttonHead}>Unidades de negócio</button>
+        <button className={buttonHead}>Produtos</button>
+        <button className={buttonHead}>Segmentos</button>
+        <button className={buttonHead}>Sobre</button>
+    </div>
   );
 }
